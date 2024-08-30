@@ -1,31 +1,31 @@
 #HTML CODE
 ****************************************************************************************************
 <!DOCTYPE html>
-<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!--===== Font Awesome =====-->
-    <link rel="stylesheet" href="./index_files/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!--===== Main CSS =====-->
-    <link rel="stylesheet" href="./index_files/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
       <!--===== Navbar Start =====-->
       <nav class="navbar">
           <div class="container">
               <div class="row justify-content-between">
-                  <div class="logo"><a href="http://127.0.0.1:5500/index.html">Free<span>lancer</span></a></div>
+                  <div class="logo"><a href="index.html">Free<span>lancer</span></a></div>
                   <div class="links">
                   <ul class="menu">
-                      <li class="nav-item"><a href="http://127.0.0.1:5500/index.html#home" class="nav-link active">Home <span></span></a></li>
-                      <li class="nav-item"><a href="http://127.0.0.1:5500/index.html#about" class="nav-link">About <span></span></a></li>
-                      <li class="nav-item"><a href="http://127.0.0.1:5500/index.html#services" class="nav-link">Services <span></span></a></li>
-                      <li class="nav-item"><a href="http://127.0.0.1:5500/index.html#portfolio" class="nav-link">Portfolio <span></span></a></li>
-                      <li class="nav-item"><a href="http://127.0.0.1:5500/index.html#pricing" class="nav-link">Pricing <span></span></a></li>
-                      <li class="nav-item"><a href="http://127.0.0.1:5500/index.html#contact" class="nav-link">Contact <span></span></a></li>
+                      <li class="nav-item"><a href="#home" class="nav-link active">Home <span></span></a></li>
+                      <li class="nav-item"><a href="#about" class="nav-link">About <span></span></a></li>
+                      <li class="nav-item"><a href="#services" class="nav-link">Services <span></span></a></li>
+                      <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio <span></span></a></li>
+                      <li class="nav-item"><a href="#pricing" class="nav-link">Pricing <span></span></a></li>
+                      <li class="nav-item"><a href="#contact" class="nav-link">Contact <span></span></a></li>
                   </ul>
                   </div>
                   <div class="menu-btn">
@@ -38,24 +38,24 @@
       <!--===== Home Section Start =====-->
       <section class="home-section" id="home">
           <ul class="header-social"> <!--===== Header Social =====-->
-              <li><a href="http://127.0.0.1:5500/index.html#"><i class="fab fa-facebook-f"></i></a></li>
-              <li><a href="http://127.0.0.1:5500/index.html#"><i class="fab fa-twitter"></i></a></li>
-              <li><a href="http://127.0.0.1:5500/index.html#"><i class="fab fa-instagram"></i></a></li>
-              <li><a href="http://127.0.0.1:5500/index.html#"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
           </ul>
           <div class="container">
               <div class="row align-items-center">
                   <div class="home-text">
                       <h4>Hello</h4>
-                      <h1>Pronit Raj</h1>
+                      <h1>Amit Kumar</h1>
                       <span>Professional Freelancer Web Developer</span>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
                            maxime possimus. Modi ipsam iste necessitatibus!</p>
-                           <a href="http://127.0.0.1:5500/index.html#" class="btn btn-1">purchase now</a>
+                           <a href="#" class="btn btn-1">purchase now</a>
                   </div>
                   <div class="home-image">
                       <div class="img-box">
-                          <img src="./index_files/pronit.jpg" alt="">
+                          <img src="images/amit2.jpg" alt="">
                       </div>
                   </div>
               </div>
@@ -67,7 +67,6 @@
       <section class="about-section section-padding" id="about">
           <div class="container">
               <div class="row align-items-center justify-content-center">
-                  
                   <div class="about-content">
                       <div class="section-title">
                           <h5 class="sub-title">About</h5>
@@ -93,7 +92,7 @@
                                   </div>
                                   <div class="skill-bar">
                                       <div class="bar-inner">
-                                          <div class="bar progress-line" data-progress="90%" style="width: 90%;"></div>
+                                          <div class="bar progress-line" data-progress="90%"></div>
                                       </div>
                                   </div>
                               </div> <!--===== Skill Item =====-->
@@ -106,7 +105,7 @@
                                 </div>
                                 <div class="skill-bar">
                                     <div class="bar-inner">
-                                        <div class="bar progress-line" data-progress="95%" style="width: 95%;"></div>
+                                        <div class="bar progress-line" data-progress="95%"></div>
                                     </div>
                                 </div>
                             </div> <!--===== Skill Item =====-->
@@ -119,7 +118,7 @@
                                 </div>
                                 <div class="skill-bar">
                                     <div class="bar-inner">
-                                        <div class="bar progress-line" data-progress="80%" style="width: 80%;"></div>
+                                        <div class="bar progress-line" data-progress="80%"></div>
                                     </div>
                                 </div>
                             </div> <!--===== Skill Item =====-->
@@ -132,7 +131,7 @@
                                 </div>
                                 <div class="skill-bar">
                                     <div class="bar-inner">
-                                        <div class="bar progress-line" data-progress="70%" style="width: 70%;"></div>
+                                        <div class="bar progress-line" data-progress="70%"></div>
                                     </div>
                                 </div>
                             </div> <!--===== Skill Item =====-->
@@ -266,7 +265,7 @@
                   <div class="portfolio-item" data-category="wordpress">
                       <div class="portfolio-item-inner">
                           <div class="portfolio-img">
-                              <img src="./index_files/portfolio-1.jpg" alt="">
+                              <img src="images/portfolio/portfolio-1.jpg" alt="">
                           </div>
                           <div class="portfolio-info">
                               <h4>web design</h4>
@@ -281,7 +280,7 @@
                   <div class="portfolio-item" data-category="wordpress">
                     <div class="portfolio-item-inner">
                         <div class="portfolio-img">
-                            <img src="./index_files/portfolio-2.jpg" alt="">
+                            <img src="images/portfolio/portfolio-2.jpg" alt="">
                         </div>
                         <div class="portfolio-info">
                             <h4>wordpress</h4>
@@ -296,7 +295,7 @@
                    <div class="portfolio-item" data-category="photography">
                     <div class="portfolio-item-inner">
                         <div class="portfolio-img">
-                            <img src="./index_files/portfolio-3.jpg" alt="">
+                            <img src="images/portfolio/portfolio-3.jpg" alt="">
                         </div>
                         <div class="portfolio-info">
                             <h4>photography</h4>
@@ -311,7 +310,7 @@
                    <div class="portfolio-item" data-category="web-design">
                     <div class="portfolio-item-inner">
                         <div class="portfolio-img">
-                            <img src="./index_files/portfolio-4.jpg" alt="">
+                            <img src="images/portfolio/portfolio-4.jpg" alt="">
                         </div>
                         <div class="portfolio-info">
                             <h4>web-design</h4>
@@ -326,7 +325,7 @@
                    <div class="portfolio-item" data-category="wordpress">
                     <div class="portfolio-item-inner">
                         <div class="portfolio-img">
-                            <img src="./index_files/portfolio-5.jpg" alt="">
+                            <img src="images/portfolio/portfolio-5.jpg" alt="">
                         </div>
                         <div class="portfolio-info">
                             <h4>wordpress</h4>
@@ -341,7 +340,7 @@
                    <div class="portfolio-item" data-category="photography">
                     <div class="portfolio-item-inner">
                         <div class="portfolio-img">
-                            <img src="./index_files/portfolio-6.jpg" alt="">
+                            <img src="images/portfolio/portfolio-6.jpg" alt="">
                         </div>
                         <div class="portfolio-info">
                             <h4>photography</h4>
@@ -391,7 +390,7 @@
                               </ul>
                           </div>
                           <div class="pricing-footer">
-                              <a href="http://127.0.0.1:5500/index.html#" class="btn-2">get started</a>
+                              <a href="#" class="btn-2">get started</a>
                           </div>
                       </div>
                   </div>
@@ -416,7 +415,7 @@
                             </ul>
                         </div>
                         <div class="pricing-footer">
-                            <a href="http://127.0.0.1:5500/index.html#" class="btn-1">get started</a>
+                            <a href="#" class="btn-1">get started</a>
                         </div>
                     </div>
                 </div>
@@ -440,7 +439,7 @@
                             </ul>
                         </div>
                         <div class="pricing-footer">
-                            <a href="http://127.0.0.1:5500/index.html#" class="btn-2">get started</a>
+                            <a href="#" class="btn-2">get started</a>
                         </div>
                     </div>
                 </div>
@@ -494,7 +493,7 @@
                  <!--===== Contact Form =====-->
               <div class="row">
                   <div class="contact-form">
-                      <form action="http://127.0.0.1:5500/index.html">
+                      <form action="">
                           <div class="row">
                               <div class="w-50">
                                   <div class="input-group">
@@ -528,7 +527,7 @@
        <footer class="footer">
            <div class="container">
                <div class="row justify-content-center">
-                   <p class="copyright-text">© 2021 by cryptical coder</p>
+                   <p class="copyright-text">&copy; 2021 by cryptical coder</p>
                </div>
            </div>
        </footer>
@@ -536,8 +535,8 @@
        <!--===== Lightbox Start =====-->
       <div class="lightbox">
           <div class="lightbox-content">
-              <div class="lightbox-close">×</div>
-              <img src="./index_files/portfolio-2.jpg" onclick="nextItem()" class="lightbox-img" alt="">
+              <div class="lightbox-close">&times;</div>
+              <img src="images/portfolio/portfolio-2.jpg" onclick="nextItem()" class="lightbox-img" alt="">
               <div class="lightbox-caption">
                   <div class="caption-text"></div>
                   <div class="caption-counter"></div>
@@ -550,47 +549,9 @@
       </div>
       <!--===== Lightbox End =====-->
       <!--===== Main JS =====-->
-    <script src="./index_files/main.js.download"></script>
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
-
-</body></html>
+    <script src="js/main.js"></script>
+</body>
+</html>
 ****************************************************************************************************
 #CSS CODE
 ****************************************************************************************************
